@@ -1,0 +1,29 @@
+.RegisterContainer{
+    width: 400px;
+    margin: auto;
+    background-color: rgb(171, 233, 177);
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;  /* all item in center horizontally */
+    gap: 5px; /*  genrate gap betweem all rows */
+    align-items: center; /* set all item in center vertically*/
+    }
+    .RegisterContainer input{
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color: black;
+        color: red;
+    }
+    .RegisterContainer button{
+        padding: 10px 70px;
+        border-radius: 10px;
+        border: none;
+        background-color: blue;
+    }
+    .RegisterContainer .login{
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: inherit;
+    
+    }
